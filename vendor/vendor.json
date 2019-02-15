@@ -1,0 +1,67 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "PLYRsSaqhSKrGIuxWkV+B9uMUL8=",
+			"path": "github.com/alecthomas/log4go",
+			"revision": "d146e6b86faab5f7e4d135cc63b749d74bf0d4a6",
+			"revisionTime": "2018-01-09T08:25:32Z"
+		},
+		{
+			"checksumSHA1": "ow9NW7BBNs7ToXqdUcf40f997+8=",
+			"path": "github.com/gin-gonic/gin",
+			"revision": "c65e5efc9a0ae6666819cda8e9a86db4d3d19833",
+			"revisionTime": "2018-10-23T02:56:33Z"
+		},
+		{
+			"checksumSHA1": "Y8Vu2NT4c2ve963fedBxoJyiU6s=",
+			"path": "github.com/gin-gonic/gin/internal/json",
+			"revision": "c65e5efc9a0ae6666819cda8e9a86db4d3d19833",
+			"revisionTime": "2018-10-23T02:56:33Z"
+		},
+		{
+			"checksumSHA1": "4M9k9nVUGkPX02QpowuIailAabg=",
+			"path": "github.com/go-xorm/xorm",
+			"revision": "1f39c590c64924f358c0d89016ac9b2bb84e9125",
+			"revisionTime": "2018-10-23T09:52:55Z"
+		},
+		{
+			"checksumSHA1": "cyejI0bcXBrdCmmbBNVzMNx7I80=",
+			"path": "github.com/gomodule/redigo/redis",
+			"revision": "e8fc0692a7e26a05b06517348ed466349062eb47",
+			"revisionTime": "2018-10-26T00:15:55Z"
+		},
+		{
+			"checksumSHA1": "FdRzT7f5d5uekrpzlLCKxLIK3wQ=",
+			"path": "github.com/gorilla/securecookie",
+			"revision": "86450627d8e6b88e00ea41f228489b89d08a40de",
+			"revisionTime": "2019-07-07T03:38:17Z"
+		},
+		{
+			"checksumSHA1": "cwc8hi1B7gYshKGFEEhrsvSUsxU=",
+			"path": "github.com/gorilla/sessions",
+			"revision": "400b592ab70b9f8ee876cf47bc6c794d255dd4aa",
+			"revisionTime": "2019-10-06T15:13:01Z"
+		},
+		{
+			"checksumSHA1": "srVltClYLpJmCjnwaXmcFgiGuHQ=",
+			"path": "github.com/mikemintang/go-curl",
+			"revision": "fabfc3d8173c4d2628e0463cd511b1d6f775c35a",
+			"revisionTime": "2018-09-29T06:55:15Z"
+		},
+		{
+			"checksumSHA1": "7kR30C1UZXp50sNOQQjmd/D1i60=",
+			"path": "github.com/tommy351/gin-sessions",
+			"revision": "353060947eb6549deb9e15229c73ed37931acf5f",
+			"revisionTime": "2015-06-17T14:18:53Z"
+		},
+		{
+			"checksumSHA1": "kQ7PivWEDn4Zd3WsgJigE+Ae000=",
+			"path": "github.com/vmihailenco/msgpack",
+			"revision": "c4fc0fcdd500af473157759b6d73f935e727ec77",
+			"revisionTime": "2018-10-23T08:46:59Z"
+		}
+	],
+	"rootPath": "jose/josegin"
+}

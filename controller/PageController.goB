@@ -1,0 +1,36 @@
+package controller
+
+import (
+	"github.com/gin-gonic/gin"
+	"net/http"
+	"fmt"
+)
+
+type PageController struct {
+	gin.Controller
+}
+
+
+
+//func (ctrl *PageController)before() gin.HandlerFunc {
+//	return func(ctx *gin.Context) {
+//		uri := ctx.Request.RequestURI
+//		fmt.Print(uri)
+//		if 1==1{
+//			ctx.Next()
+//		}
+//		return
+//	}
+//}
+
+
+func (ctrl *PageController)Router(router *gin.Engine){
+	router.GET("/",ctrl.showIndex)
+
+}
+
+//展示首页
+func (ctrl * PageController) showIndex(ctx *gin.Context){
+	fmt.Println(ctx)
+	ctx.HTML(http.StatusOK,"user/login.html","")
+}
